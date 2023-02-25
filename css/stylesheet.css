@@ -5,12 +5,48 @@ h1{
     color:#00008B;
 
 }
+header{
+    background-color: pink;
+}
 
-nav{
-    background-color:#00008B;
+nav{;
     text-align: center;
 }
 
-.index-h1{
+.header-title{
 font-family: "Montserrat", sans-serif;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+}
+
+.header-list{
+    list-style-type: none;
+    padding: 0%;
+    display: flex;
+    justify-content:center;
+}
+
+.header-list a{
+    padding: 10px;
+}
+
+.main-content{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr  1fr;
+    grid-gap:25px;
+    margin-top: 50px;
+}
+
+footer{
+    display:flex;
+    justify-content: center;
+    background-color:pink;
 }
