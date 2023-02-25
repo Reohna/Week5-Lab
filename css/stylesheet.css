@@ -17,6 +17,12 @@ nav{;
 font-family: "Montserrat", sans-serif;
 }
 
+.header #school-image{
+    display: flex;
+    margin-right:auto;
+
+}
+
 .header{
     display: flex;
     justify-content: center;
@@ -40,9 +46,9 @@ font-family: "Montserrat", sans-serif;
 .main-content{
     display: grid;
     grid-template-columns: 2fr 1fr;
-    grid-template-rows: 1fr  1fr;
+    grid-template-rows: fr fr;
     grid-gap:25px;
-    margin-top: 50px;
+    margin: 25px;
 }
 
 footer{
